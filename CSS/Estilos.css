@@ -119,7 +119,7 @@ ul{
 /* HERO */
 
 .img_hero {
-    max-width: 286px;
+    max-width: 346px;
     position: relative;
     left: 2rem;
     margin-top: 6rem;
@@ -165,14 +165,11 @@ ul{
     text-decoration: none;
     color: #000;
     font-style: italic;
-    font-style: italic;
-    position: absolute;
-    left: 49rem;
-    top: 22rem;
     filter: blur(1px);
     width: 28rem;
+    flex-direction: column;
+    display: flex;
 }
-
 
 
 .second-article-info {
@@ -624,6 +621,5 @@ footer{
     .img__grid {
         max-width: 189px;
     }
-     
 
 }
