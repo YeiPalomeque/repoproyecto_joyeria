@@ -119,7 +119,7 @@ ul{
 /* HERO */
 
 .img_hero {
-    max-width: 346px;
+    max-width: 318px;
     position: relative;
     left: 2rem;
     margin-top: 6rem;
@@ -465,7 +465,6 @@ footer{
 /* hasta 320px*/
 
 @media screen and (max-width:320px) {
-#central 
     /*HEADER AND FOOTER*/
     .header {
         position: relative;
@@ -513,91 +512,6 @@ footer{
         justify-content: space-around;
     }
 
-    /*INDEX MQ*/
-
-    .sectionhero {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        height: 84vh;
-    }
-
-    .img_hero {
-        max-width: 146px;
-        position: relative;
-        left: 0rem;
-        margin-top: 2rem;
-    }
-
-    .section__title {
-        display: flex;
-        flex-direction: column;
-        font-style: italic;
-        max-width: 271px;
-        
-    }
-
-    .section__p {
-        display: flex;
-        flex-direction: column;
-        font-size: 0.50rem;
-        font-size: var;
-        max-width: 63rem;
-        left: 4rem;
-    }
-
-    .btn {
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: #000;
-        font-style: italic;
-        font-style: italic;
-        position: absolute;
-        filter: blur(1px);
-        width: 28rem;
-    }
-
-    .second-article-info {
-        display: flex;
-        flex-direction: column;
-        font-size: 0.70rem;
-        position: relative;
-        top: 4rem;
-        font-style: italic;
-    }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        right: 6rem;
-    }
-
-    .img-info {
-        display: flex;
-        flex-direction: column;
-        max-width: 207px;
-        padding: 0rem;
-    }
-
-    .titulo__anillo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        right: 15rem;
-        font-size: initial;
-    }
-
-    .descripcion__anillo {
-        color: var(--secondary);
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-size: 0.900rem;
-        max-width: 20rem;
-    }
     /*PRODUCTOS MEDIA QUERIES*/
     .coleccion__titulo {
         display: flex;
@@ -622,4 +536,46 @@ footer{
         max-width: 189px;
     }
 
+    /*INDEX*/
+    
+    .sectionhero {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        height: 216vh;
+    }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    grid-column-gap: 0;
+    position: relative;
+    right: 6rem;
+}
+
+.section__p {
+    position: relative;
+    top: 3rem;
+    font-size: 1.5rem;
+    max-width: 63rem;
+    /* left: 0rem; */
+    text-align: center;
+} 
+.section__title {
+    color: var(--secondary);
+    font-style: italic;
+    position: relative;
+    max-width: 271px;
+    top: 3rem;
+    left: 17rem;
+    font-style: italic;
+    padding: 1rem;
+    transform: scale3d(2.5, 1.5, 7.5);
+} 
+.img_hero {
+    max-width: 254px;
+    position: relative;
+    left: 1rem;
+    margin-top: 1rem;
+}
 }
