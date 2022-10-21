@@ -119,7 +119,7 @@ ul{
 /* HERO */
 
 .img_hero {
-    max-width: 318px;
+    max-width: 274px;
     position: relative;
     left: 2rem;
     margin-top: 6rem;
@@ -227,7 +227,7 @@ ul{
 
 
 .img-info {
-    max-width: 577px;
+    max-width: 571px;
     padding: 0rem;
 }
 .img-info:hover {
