@@ -240,6 +240,11 @@ ul{
 
 /* PRODUCTOS*/
 
+.descripción_productos{
+    font-size: large;
+    font-style: italic;
+}
+
 .coleccion__titulo {
     color: var(--secondary);
     font-family: 'Titillium Web', sans-serif;
@@ -462,7 +467,9 @@ footer{
 
 /* MEDIA QUERIES */
 
-/* hasta 320px*/
+/* hasta 320px*/ 
+
+
 
 @media screen and (max-width:320px) {
     /*HEADER AND FOOTER*/
@@ -510,7 +517,7 @@ footer{
         flex-direction: column;
         list-style-type: none;
         justify-content: space-around;
-    }
+    } 
 
     /*PRODUCTOS MEDIA QUERIES*/
     .coleccion__titulo {
@@ -534,11 +541,11 @@ footer{
 
     .img__grid {
         max-width: 189px;
-    }
+    } 
 
     /*INDEX*/
 
-    .img_hero {
+ .img_hero {
         max-width: 276px;
         position: relative;
         left: 0rem;
@@ -549,7 +556,7 @@ footer{
         display: flex;
         flex-direction: column;
         margin: 1rem;
-        height: 307vh;
+        height: 252vh;
     }
 
 .info {
@@ -585,7 +592,7 @@ footer{
 } 
 .img-info { display: flex;
     flex-direction: column;
-    max-width: 100px;
+    max-width: 243px;
     left: 1rem;
     margin-top: 1rem;
 }
@@ -604,6 +611,5 @@ footer{
     transform: translateY(10px);
 
 } 
-
 
 }
