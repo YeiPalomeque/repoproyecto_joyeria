@@ -179,15 +179,17 @@ ul{
 
 .sectionhero {
 
-    background-image: url(../imgbanner/banner_blanco.jpg);
+    background-image: url(../imgbanner/Sin\ título-1.jpg);
     margin: 1rem;
-    height: 71vh;
+    height: 80vh;
 }
 
 .h2 {
     font-size: xxx-large;
     font-style: italic;
     transform: scaleX(1.5);
+    margin-top: 8rem;
+    color: white;
 }
 
 .tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
@@ -195,19 +197,19 @@ ul{
 
 .section__p {
     position: relative;
-    top: 8rem;
+    top: 5rem;
     font-size: var;
     font-size: large;
     max-width: 63rem;
-    left: 4rem;
+    left: 1rem;
+    color: white;
 }
 
 .btn {
     font-size: xx-large;
     text-decoration: none;
-    color: #000;
+    color: grey;
     font-style: italic;
-    
     width: 28rem;
     
 }
@@ -241,6 +243,11 @@ ul{
     .img-info:hover {    
         filter: hue-rotate(45deg);
         transition: invert 2s;
+        }
+    .descripcion__anillo {
+        font-style: oblique;
+        font-weight: lighter;
+        
         }
 
 /* PRODUCTOS*/
@@ -377,24 +384,24 @@ ul{
     margin-top: 4rem;
     text-align: center;
     border: 1 rem;
-    background-image: url(../imgbanner/Sin\ título-1.jpg);
+    background-image: url(../imgbanner/banner_blanco.jpg);
     height: 70rem;
 }
 
 .kenburns-top {
 	-webkit-animation: kenburns-top 5s ease-out both;
-	        animation: kenburns-top 5s ease-out both;
+	animation: kenburns-top 5s ease-out both;
 }
 
 .class__cuidados {
-    color: var(--accent);
+    color: var(--secondary);
     margin-top: 0;
     margin-bottom: 1rem;
     margin-top: 27rem;
     margin-left: 40rem;
     width: 67rem;
-    left: 38rem;
-    filter: drop-shadow(2px 4px 6px black);
+    /* left: 38rem; */
+    filter: drop-shadow(1px 1px 2px white);
 }
 
 
