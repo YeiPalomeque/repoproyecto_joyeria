@@ -118,37 +118,25 @@ ul{
 
 /* HERO */
 
-.img_hero {
-    max-width: 274px;
-    position: relative;
-    left: 2rem;
-    margin-top: 6rem;
-}
-
-.img_hero:hover {
-    filter: hue-rotate(45deg);
-    transition: invert 2s;
+.frist_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    filter: drop-shadow(20px 6px 8px black);
 }
 
 
 .sectionhero {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "img_hero" "section__title" "section__p" "btn" "section";
+
+    background-image: url(../imgbanner/banner_blanco.jpg);
     margin: 1rem;
-    height: 84vh;
+    height: 71vh;
 }
-.section__title {
-    color: var(--secondary);
+
+.h2 {
+    font-size: xxx-large;
     font-style: italic;
-    position: relative;
-    max-width: 271px;
-    top: 5rem;
-    left: 21rem;
-    font-style: italic;
-    padding: 1rem;
-    transform: scale3d(2.5, 1.5, 7.5);
 }
 
 .section__p {
@@ -165,12 +153,10 @@ ul{
     text-decoration: none;
     color: #000;
     font-style: italic;
-    filter: blur(1px);
+    
     width: 28rem;
-    flex-direction: column;
-    display: flex;
+    
 }
-
 
 .second-article-info {
     max-width: 58rem;
@@ -363,18 +349,28 @@ ul{
 }
 
 /* INFO */
-.tallescuidados{
-    width: 130vh;
-    position: relative;
-    left: 20rem;
+.tallescuidados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4rem;
     text-align: center;
-    margin: 2rem;
     border: 1 rem;
+    background-image: url(../imgbanner/Sin\ título-1.jpg);
+    height: 71rem;
 }
 
-.img__talles {
-    margin: 1 rem;
+.class__cuidados{
+    color: var(--accent);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 42rem;
+    width: 66rem;
+    left: 38rem;
+    filter: drop-shadow(2px 4px 6px black);
 }
+
 
 /* CONTACTO */
 
@@ -545,12 +541,6 @@ footer{
 
     /*INDEX*/
 
- .img_hero {
-        max-width: 276px;
-        position: relative;
-        left: 0rem;
-        margin-top: 6rem;
-    }
     
     .sectionhero {
         display: flex;
@@ -613,3 +603,12 @@ footer{
 } 
 
 }
+
+
+/* MEDIA QUERIES */
+
+/* hasta 768px*/ 
+
+
+
+@media screen and (max-width:768px) {
