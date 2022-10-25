@@ -137,6 +137,7 @@ ul{
 .h2 {
     font-size: xxx-large;
     font-style: italic;
+    transform: scaleX(1.5);
 }
 
 .section__p {
@@ -322,16 +323,16 @@ ul{
     text-align: center;
     border: 1 rem;
     background-image: url(../imgbanner/Sin\ título-1.jpg);
-    height: 71rem;
+    height: 70rem;
 }
 
-.class__cuidados{
+.class__cuidados {
     color: var(--accent);
     margin-top: 0;
     margin-bottom: 1rem;
-    position: relative;
-    bottom: 42rem;
-    width: 66rem;
+    margin-top: 27rem;
+    margin-left: 40rem;
+    width: 67rem;
     left: 38rem;
     filter: drop-shadow(2px 4px 6px black);
 }
