@@ -168,61 +168,26 @@ ul{
 }
 
 /* SECOND SECTION */
-.info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0;
-    position: relative;
-    right: 6rem;
-}
 
-.info__card { 
-    width: 50rem;
-    display: inline-block;
-    margin: 5rem;
-    position: relative;
-    left: 8rem;
-    text-align: center;
-    
-}
+    .divinfo {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+        }
 
-.titulo__anillo {
-    margin-top: 2rem;
-    margin: 1rem;
-    color: var(--secondary);
-    position: relative;
-    left: 17rem;
-    transform: translateY(10px);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0;
-    position: relative;
-    right: 6rem;
-    text-decoration: none;
-}
+    .info {
+        margin-left: 10rem;
+        width: 58rem;
+        }
 
-.descripcion__anillo {
-    color: var(--secondary);
-    position: relative;
-    left: 4rem;
-    font-size: smaller;
-    text-align: revert;
-}
-
-
-.img-info {
-    max-width: 571px;
-    padding: 0rem;
-}
-.img-info:hover {
-    filter: hue-rotate(87deg);
-    transition: 2s;
-    
-    filter: hue-rotate(45deg);
-    transition: invert 2s;
-    }
+    .img-info {
+            max-width: 571px;
+            padding: 0rem;
+        }
+    .img-info:hover {    
+        filter: hue-rotate(45deg);
+        transition: invert 2s;
+        }
 
 /* PRODUCTOS*/
 
@@ -605,10 +570,6 @@ footer{
 }
 
 
-/* MEDIA QUERIES */
-
-/* hasta 768px*/ 
 
 
 
-@media screen and (max-width:768px) {
