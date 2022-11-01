@@ -114,7 +114,7 @@ ul{
         align-items: center;
         justify-content: space-between;
         height: 100%;
-        padding: 0 40px;
+        margin: 4rem;
     
 }
 .nav___bar{
@@ -128,17 +128,9 @@ ul{
 
 
 .header-logo {
-    max-width: 149px;
-    filter: drop-shadow(2px 4px 6px black);
-    position: relative;
-    top: 2rem;
-    filter: contrast(0.2);
+    max-width: 174px;
 }
 
-.header-logo:hover {
-    filter: hue-rotate(154deg);
-    transition: 2s;
-}
 
 .menu__bar {
     display: flex;
@@ -146,12 +138,6 @@ ul{
     justify-content: center;
     list-style-type: none;
     
-}
-
-.menu__bar:hover {
-    
-    margin: 2rem;
-    transition:ease 1s;
 }
 
 
@@ -311,19 +297,10 @@ ul{
     font-weight: normal;
     
 }
-.text__grid:hover {
-    filter: opacity(0.5);
-    margin: 1rem;
-    transition: margin 1s;
-}
+
 
 .img__grid {
     max-width: 400px;
-}
-
-.img__grid:hover {
-    filter: invert(1);
-    transition: invert 2s;
 }
 
 /* NOSOTROS */
@@ -367,20 +344,13 @@ ul{
     top: 2rem;
     right: 7rem;
 }
-.gif_img:hover {
-    filter: invert(1);
-    transition: 1s;
-}
 
 .corazon_negro {
     max-width: 515px;
     position: relative;
     right: 10rem;
 }
-.corazon_negro:hover {
-    filter: grayscale(1);
-    transition: 2s;
-}
+
 
 .p__manifiesto {
     width: 60rem;
