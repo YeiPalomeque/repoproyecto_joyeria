@@ -252,20 +252,26 @@ ul{
 
 /* PRODUCTOS*/
 
-.descripción_productos{
+.parrafo_anillos {
     font-size: large;
     font-style: italic;
+    width: 10 rem;
+    width: 40rem;
+    text-align: center;
 }
 
 .coleccion__titulo {
     color: var(--secondary);
     font-family: 'Titillium Web', sans-serif;
-    width: 100%;
     left: 0;
     right: 0;
-    transform: scale3d(5.5, 1.5, 7.5);
+    font-style: italic;
     text-align: center;
-    top: 42%;
+    font-size: 5rem;
+    font-variant-caps: small-caps;
+    transform: matrix(1, 0, 0, 1, 0, -23);
+    letter-spacing: 3rem;
+    filter: blur(0.6px);
 }
 
 
@@ -552,15 +558,16 @@ footer{
     .coleccion__titulo {
         display: flex;
         flex-direction: column;
-        font-size: xx-small;
+        font-size: 3rem;
+        width: 29rem;
+        letter-spacing: 0;
     }
-
     .grid {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        width: 29rem;
         padding: 1rem;
-        margin: 6.5rem;
+        margin: 2.5rem;
         justify-content: center;
         row-gap: 0rem;
         column-gap: 0rem;
@@ -569,7 +576,14 @@ footer{
     }
 
     .img__grid {
-        max-width: 264px;
+        max-width: 280px;
+
+    }
+    .parrafo_anillos {
+        font-size: large;
+        font-style: italic;
+        width: 27rem;
+        text-align: center;
     }
 
     /*INDEX*/
