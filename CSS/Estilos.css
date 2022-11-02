@@ -501,13 +501,15 @@ footer{
 @media screen and (max-width:320px) {
     /*HEADER AND FOOTER*/
     .header {
-        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer {
+        background-color: var(--accent);
+        width: 24rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-        padding: 0 40px;
     }
 
     .header-logo {
@@ -567,31 +569,54 @@ footer{
     }
 
     .img__grid {
-        max-width: 189px;
-    } 
+        max-width: 264px;
+    }
 
     /*INDEX*/
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .h2 {
+        font-size: larger;
+        font-style: italic;
+        margin-top: 8rem;
+        color: white;
+        letter-spacing: 0.02em;
+        width: 11rem;
+    }
     
     .sectionhero {
         display: flex;
         flex-direction: column;
         margin: 1rem;
-        height: 252vh;
+        height: 85rem;
+        width: 31rem;
     }
 
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 32rem;
+    
 }
 
 .section__p {
-
     top: 3rem;
-    max-width: 63rem;
     text-align: center;
-} 
+    max-width: 25rem;
+}
+
+.parrafo_espada {
+    width: 24rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+
 .section__title {
     color: var(--secondary);
     font-style: italic;
@@ -611,7 +636,7 @@ footer{
 }
 
 .img-fluid {
-    max-width: 101%;
+    max-width: 217px;
     height: auto;
 }
 
@@ -624,6 +649,133 @@ footer{
     transform: translateY(10px);
 
 } 
+
+.descripcion__anillo {
+    font-style: oblique;
+    font-weight: lighter;
+    max-width: 24rem;
+}
+
+.divinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+/* NOSOTROS*/
+
+.NOSOTROS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11rem;
+}
+
+.t__nosotros {
+    font-style: italic;
+    color: var(--secondary);
+    transform: rotateX(42deg);
+    font: historical-ligatures;
+    letter-spacing: 0.02em;
+}
+
+.pt__nosotros {
+    text-align: center;
+    width: 31rem;
+    font-style: italic;
+    color: var(--secondary);
+}
+.gif_img {
+    width: 308px;
+    position: relative;
+    right: 10rem;
+}
+
+.corazon_negro {
+    max-width: 288px;
+    margin: 1rem;
+}
+
+.p__manifiesto {
+    width: 18rem;
+    height: 177rem;
+    color: var(--secondary);
+    
+    text-align: center;
+}
+
+/* CUIDADOS*/
+.tallescuidados.kenburns-top {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    height: 64rem;
+}
+
+.title_cuidados {
+    font-size: 5rem;
+    transform: rotateX(51deg);
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+    text-decoration-line: underline;
+    letter-spacing: 0.02em;
+}
+
+.class__cuidados {
+    transform: rotateX(45deg);
+    color: white;
+    margin-top: 0;
+    margin-left: 0rem;
+    font-size: large;
+    width: 24rem;
+}
+
+.img__cuidados {
+    width: 305px;
+    margin-top: 12rem;
+}
+
+/*CONTACTO*/
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__contact {
+    font-style: italic;
+    font-family: 'Titillium Web', sans-serif;
+    width: 12rem;
+    transform: scale3d(4.5, 1.5, 7.5);
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: small;
+}
+
+.form_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: border-box;
+    border: solid;
+    padding: 5rem;
+    width: 28rem;
+    margin-top: 9rem;
+}
+
+.informacionadicional {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 30rem;
+}
+
+.info__adicional {
+    position: relative;
+    right: 20rem;
+}
 
 }
 
