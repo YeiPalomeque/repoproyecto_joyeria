@@ -1,0 +1,52 @@
+@import "./variables";
+
+.hero {
+    background-image: url(../imgbanner/banner.jpg) ;
+    margin: 1rem;
+    height: 80vh;
+
+    &__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    filter: drop-shadow(20px 6px 8px black);
+    }
+    
+    &__h2 {
+    font-size: xxx-large;
+    font-style: italic;
+    transform: scaleX(1.5);
+    margin-top: 8rem;
+    color: white;
+    letter-spacing: 0.02em;
+    }
+
+    &-tracking-in-expand{-webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
+
+    &__parrafo {
+    position: relative;
+    top: 5rem;
+    font-size: large;
+    max-width: 63rem;
+    left: 1rem;
+    color: white;
+    text-shadow: 0 0 black;
+    }
+
+    &__parrafo::first-line {
+    color: #938383;
+    font-variant: small-caps;
+    }
+
+    &_btn {
+    font-size: xx-large;
+    text-decoration: none;
+    color: #8f7d7d;
+    font-style: italic;
+    width: 28rem;
+        
+    }
+
+    
+}

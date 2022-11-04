@@ -1,0 +1,11 @@
+
+"build-css": "node-sass --include-path scss sass/main.scss css/estilodos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+Importante:
+
+node-sass supports outputting minified CSS with the --output-style parameter.
+
+Type: String 
+Default: nested 
+Values: nested, expanded, compact, compressed

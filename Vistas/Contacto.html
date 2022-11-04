@@ -15,39 +15,39 @@
     <div id="mobile">
         <header class="header">
             <a href="../index.html">
-                <img class="header-logo" src="../imgbanner/LOGO 3MPRETIENDA 1.png" alt="#Logo">
+                <img class="header__logo" src="../imgbanner/LOGO 3MPRETIENDA 1.png" alt="#Logo">
             </a> 
-            <nav class="nav__bar">
-                <ul class="menu__bar">
-                    <li class="menu__intem"><a class="menu__link" href="./productos.html">PRODUCTOS</a></li>
-                    <li class="menu__intem"><a class="menu__link" href="./nosotros.html"">NOSOTROS</a></li>
-                    <li class="menu__intem"><a class="menu__link" href="./info.html">INFO</a></li>
-                    <li class="menu__intem"><a class="menu__link" href="#">CONTACTO</a></li>
+            <nav class="header__navbar">
+                <ul class="header__ul">
+                    <li class="header__li"><a class="header__anchor" href="./productos.html">PRODUCTOS</a></li>
+                    <li class="header__li"><a class="header__anchor" href="./nosotros.html">NOSOTROS</a></li>
+                    <li class="header__li"><a class="header__anchor" href="./info.html">INFO</a></li>
+                    <li class="header__li"><a class="header__anchor" href="#">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
     
     <main>
-        <div class="contactanos">
-            <h1 class="titulo__contact">Contactanos</h1>
-        <form class="form_data" action="#" method="GET" enctype="multipart/form-data">
-            <div class="formulario__box">
-                <label for="name">Nombre</label>
+        <div class="contacto">
+            <h1 class="contacto__title">Contactanos</h1>
+        <form class="contacto__form" action="#" method="GET" enctype="multipart/form-data">
+            <div class="contacto__box">
+                <label class="contacto_label" for="name">Nombre</label>
                 <input type="text" name="name" id="name">
-                <label for="email">Email</label>
+                <label class="contacto_label" for="email">Email</label>
                 <input type="text" name="email" id="email">
             </div>
-            <div class="formulario__msj"> 
-                <label for="Bio"><strong>Mensaje</strong></label>
+            <div class="contacto__msj"> 
+                <label class="contacto_label" for="Bio"><strong>Mensaje</strong></label>
                 <textarea name="Bio" id="Bio" ></textarea>
             </div>
-            <div class="formulario__box">
+            <div class="contacto__box">
                 <input type="submit" value="enviar"></input>
                 <input type="reset" value="reset"></input>
             </div>
         </form>
-    <div class="informacionadicional">
-        <p class="info__adicional">
+    <div class="contacto__plusinfo">
+        <p class="contacto__p">
             Para solicitar más información sobre nuestras joyas, utilice el formulario de mensaje anterior o envíenos un correo electrónico a info@griegst.com. Nos pondremos en contacto con usted lo antes posible.
 
                 HORARIO E INFORMACIÓN
@@ -73,16 +73,16 @@
     <footer>
         <nav>
         <div class="footernav">
-            <ul class="list__nav">
-                <li class="nav_footer"><a class="link-footer" href="https://instagram.com/8i8.Joyeria">INSTAGRAM</a></li>
-                <li class="nav_footer"><a class="link-footer" href="#">POLITICA DE PRIVACIDAD</a></li>
-                <li class="nav_footer"><a class="link-footer" href="#">MEDIOS DE PAGO</a></li>
-                <li class="nav_footer"><a class="link-footer" href="#">TERMINOS Y CONDICIONES</a></li>
+            <ul class="footer__ul">
+                <li class="footer__li"><a class="footer__anchor" href="https://instagram.com/8i8.Joyeria">INSTAGRAM</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#">POLITICA DE PRIVACIDAD</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#">MEDIOS DE PAGO</a></li>
+                <li class="footer__li"><a class="footer__anchor" href="#">TERMINOS Y CONDICIONES</a></li>
             </ul>
         </div>    
         </nav>     
-        <div class="footerinfo">
-            <ul class="info__f">       
+        <div class="footer__div">
+            <ul class="footer_ul">       
                 <li class="footer_info">Dirección Av. Cordoba 5785</li>
                 <li class="footer_info">8i8 JOYERIA</li>
                 <li class="footer_info">Buenos Aires, Arg</li>
@@ -90,7 +90,7 @@
                 <li class="footer_info">© 2020 Autoria</li>
             </ul>  
         </div>    
-    </footer>   
+    </footer> 
     <!-- Animate scroll-->
     <script>
         AOS.init();

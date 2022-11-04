@@ -1,0 +1,35 @@
+@import "./variables";
+
+.footer{
+    background-color: $--accent;
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }    
+
+    &__li{
+        margin: 1rem 0.5rem;
+        
+    }
+
+    &__anchor {
+        list-style-type: none;
+        color: #000;
+    }
+
+    &_ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        color: #000;
+        justify-content: space-around;
+    }
+
+    &_info{
+        font-style: italic;
+    }
+
+}

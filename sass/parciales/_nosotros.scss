@@ -1,0 +1,54 @@
+@import "./variables";
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 50rem 50rem; 
+    grid-column-gap: 7rem;
+    justify-content: center;
+    background-color: $--accent;
+
+    &__t {
+        width: 57rem;
+        font-style: italic;
+        padding: 1rem;
+        color: $--secondary;
+        position: relative;
+        top: 4rem;
+        right: 10rem;
+        transform: rotateX(42deg);
+        font: historical-ligatures;
+        letter-spacing: 0.02em;
+        }
+
+        &__p {
+            width: 57rem;
+            font-style: italic;
+            padding: 1rem;
+            color: $--secondary;
+            position: relative;
+            top: 4rem;
+            right: 10rem;
+        }
+
+        &__gifjpg{
+            width: 705px;
+            padding: 2rem;
+            position: relative;
+            top: 2rem;
+            right: 7rem;
+        }
+
+        &__corazon {
+            max-width: 515px;
+            position: relative;
+            right: 10rem;
+        }
+
+        &__manifiesto {
+            width: 60rem;
+            color: $--secondary;
+            position: relative;
+            top: 15rem;
+            right: 4rem;
+        }
+}

@@ -1,0 +1,15 @@
+@import "./variables";
+
+.bronce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__text {
+        width: 53rem;
+        text-align: center;
+        margin: 1rem;
+        padding-top: 1rem;
+    }
+
+}

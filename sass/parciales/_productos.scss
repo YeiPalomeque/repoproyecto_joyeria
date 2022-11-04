@@ -1,0 +1,63 @@
+@import "./variables";
+
+.coleccion {
+    &__titulo {
+        color: $--secondary;
+        font-family: 'Titillium Web', sans-serif;
+        left: 0;
+        right: 0;
+        font-style: italic;
+        text-align: center;
+        font-size: 5rem;
+        font-variant-caps: small-caps;
+        transform: matrix(1, 0, 0, 1, 0, -23);
+        letter-spacing: 3rem;
+        filter: blur(0.6px);
+    }
+
+    &__titulo:hover {
+        filter: blur(0.03rem);
+        transition: blur 1s;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    margin: 6.5rem;
+    justify-content: center;
+    row-gap: 0rem;
+    column-gap: 0rem;
+    position: relative;
+    bottom: 12rem;
+
+    &__text {
+        box-shadow: $--secondary;
+        color: $--accent;
+        position: relative;
+        top: 7rem;
+        margin: 2rem;
+        font-weight: normal;
+        
+    }
+
+    &__jpg {
+        max-width: 400px;
+        
+    }
+    
+    &__jpg:hover {
+        transition: 0.5s opacity ease-in-out; 
+        opacity: 0.70;
+    }
+
+    &__parrafo {
+        font-size: large;
+        font-style: italic;
+        width: 10 rem;
+        width: 40rem;
+        text-align: center;
+    }
+}

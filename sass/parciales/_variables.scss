@@ -1,0 +1,46 @@
+ /* Pallette */
+
+    /* Pallette */
+    $--light: #F4F1EE;
+    $--primary: #E9DBC1;
+    $--secondary: #000;
+    $--accent: #FFFFFF;
+
+    /* Font Sizes */
+    $--text-large: 3.2em;
+    $--text-midium:2.2em;
+    $--text-small:1.6em;
+    $--text-extrasmall:1em;
+
+    /* Spacings */
+    $--space-large: 5rem;
+    $--space-medium: 3.2rem;
+    $--space-small: 1.6rem;
+    $--space-extrasmall: 1.2rem;
+
+
+
+/* NORMALIZE */
+
+    $margin: 0;
+    $padding: 0;
+    $box-sizing: border-box;
+
+
+    $font-size: 62.5%;
+
+
+    $font-family: 'Titillium Web', sans-serif;
+    $font-size: var(--text-midium);
+    $color: #000;
+    $background-color: var(--accent);
+    $font-variant: all-small-caps;
+    $cursor: crosshair;
+
+
+
+
+    $list-style-type: disc;
+    $margin-block-start: 1rem;
+    $margin-block-end: 1rem;
+    $padding-inline-start: 4rem ;
