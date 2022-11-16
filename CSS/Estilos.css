@@ -750,24 +750,27 @@ ul{
 }
 
 .contacto__title {
+    font-size: 8rem;
     font-style: italic;
+    position: relative;
     font-family: 'Titillium Web', sans-serif;
-    width: 12rem;
-    transform: scale3d(4.5, 1.5, 7.5);
+    width: 100%;
+    left: 0;
+    right: 0;
     text-align: center;
-    letter-spacing: 0.02em;
-    font-size: small;
+    letter-spacing: 0.22em;
 }
 
 .contacto__form {
     display: flex;
     flex-direction: column;
+    position: relative;
     align-items: center;
+    bottom: 8rem;
     background: border-box;
     border: solid;
-    padding: 5rem;
-    width: 28rem;
-    margin-top: 9rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .contacto__plusinfo {

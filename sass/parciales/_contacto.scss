@@ -9,16 +9,15 @@
     column-gap: 2rem;
 
     &__title {
+        font-size: 8rem;
         font-style: italic;
         position: relative;
         font-family: 'Titillium Web', sans-serif;
         width: 100%;
         left: 0;
         right: 0;
-        transform: scale3d(4.5, 1.5, 7.5);
         text-align: center;
-        top: 11%;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.22em;
     }
 
     &__form {
@@ -30,6 +29,7 @@
         background: border-box;
         border: solid;
         padding-top: 5rem;
+        padding-bottom: 3rem;
     }
 
     &_label {
