@@ -354,7 +354,7 @@ ul{
 }
 
 .nosotros__gifjpg{
-    width: 705px;
+    width: 676px;
     padding: 2rem;
     position: relative;
     top: 2rem;
@@ -431,16 +431,15 @@ ul{
 }
 
 .contacto__title {
+    font-size: 8rem;
     font-style: italic;
     position: relative;
     font-family: 'Titillium Web', sans-serif;
     width: 100%;
     left: 0;
     right: 0;
-    transform: scale3d(4.5, 1.5, 7.5);
     text-align: center;
-    top: 11%;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.22em;
 }
 
 .contacto__form {
@@ -750,15 +749,13 @@ ul{
 }
 
 .contacto__title {
-    font-size: 8rem;
     font-style: italic;
-    position: relative;
     font-family: 'Titillium Web', sans-serif;
-    width: 100%;
-    left: 0;
-    right: 0;
+    width: 12rem;
+    transform: scale3d(4.5, 1.5, 7.5);
     text-align: center;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.02em;
+    font-size: small;
 }
 
 .contacto__form {
