@@ -212,7 +212,7 @@
         flex-direction: column;
         width: 24rem;
         height: 71rem;
-    }
+        }
 
         &__title {
             font-size: 5rem;
@@ -247,12 +247,12 @@
 
         &__title {
             font-style: italic;
-    font-family: 'Titillium Web', sans-serif;
-    letter-spacing: 0.02em;
-    font-size: small;
-    position: relative;
-    bottom: 3rem;
-    font-size: 5rem;
+        font-family: 'Titillium Web', sans-serif;
+        letter-spacing: 0.02em;
+        font-size: small;
+        position: relative;
+        bottom: 3rem;
+        font-size: 5rem;
         }
 
         &__form {
@@ -279,7 +279,7 @@
             position: relative;
             right: 20rem;
         }
-}
+    }
 
 }
 
