@@ -374,7 +374,7 @@ ul{
     margin-top: 4rem;
     text-align: center;
     border: 1 rem;
-    background-image: radial-gradient(circle, rgba(0,0,0,0.29735644257703087) 0%, rgba(0,0,0,0.4430147058823529) 100%);
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79) 0%, rgba(0, 0, 0, 0.718) 100%);
     height: 46rem;
     width: 100%;
 }
@@ -385,13 +385,11 @@ ul{
 }
 
 .cuidados__title {
-    font-size: 8rem;
-    transform: rotateX(51deg);
+    font-size: xxx-large;
     font-style: italic;
-    font-weight: 700;
+    transform: scaleX(1.5);
+    margin-top: 8rem;
     color: white;
-    margin-top: 3rem;
-    text-decoration-line: underline;
     letter-spacing: 0.02em;
 }
 
