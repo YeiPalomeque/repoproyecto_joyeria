@@ -310,15 +310,6 @@ ul{
     
 }
 
-.grid__parrafo {
-    font-size: large;
-    font-style: italic;
-    width: 10 rem;
-    width: 40rem;
-    text-align: center;
-}
-
-
 /* NOSOTROS */
 
 .nosotros {
@@ -521,7 +512,7 @@ ul{
         flex-direction: row;
     }
 
-    footer {
+    .footer {
         background-color: var(--accent);
         width: 24rem;
         display: flex;
@@ -710,11 +701,24 @@ ul{
 }
 
 /* INFO//CUIDADOS */
+
+.cuidados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    text-align: center;
+    border: 1 rem;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.297356) 0%, rgba(0,0,0,0.443015) 100%);
+    height: 71rem;
+    width: 100%;
+}
+
 .cuidados.kenburns-top {
     display: flex;
     flex-direction: column;
     width: 24rem;
-    height: 64rem;
+    height: 71rem;
 }
 
 .cuidados__title {
@@ -731,7 +735,7 @@ ul{
     transform: rotateX(45deg);
     color: white;
     margin-top: 0;
-    margin-left: 0rem;
+    margin-left: 4rem;
     font-size: large;
     width: 24rem;
 }
@@ -751,11 +755,11 @@ ul{
 .contacto__title {
     font-style: italic;
     font-family: 'Titillium Web', sans-serif;
-    width: 12rem;
-    transform: scale3d(4.5, 1.5, 7.5);
-    text-align: center;
     letter-spacing: 0.02em;
     font-size: small;
+    position: relative;
+    bottom: 3rem;
+    font-size: 5rem;
 }
 
 .contacto__form {
@@ -785,7 +789,233 @@ ul{
 
 }
 
+/* hasta 768px*/ 
 
+@media screen and (max-width:768px) {
+    /* INDEX */
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    /* productos*/
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid__jpg {
+        max-width: 606px;
+    }
+
+    .grid__text {
+        box-shadow: #000;
+        color: #fff;
+        position: relative;
+        top: 7rem;
+        margin: 2rem;
+        font-weight: normal;
+        font-size: 3rem;
+        font-style: italic;
+    }
+
+    /* Nosotros*/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .nosotros__t {
+        font-style: italic;
+        padding: 1rem;
+        color: var(--secondary);
+        position: relative;
+        left: 1rem;
+        top: 4rem;
+        font-size: 6rem;
+        transform: rotateX(42deg);
+        font: historical-ligatures;
+        letter-spacing: 0.02em;
+    }
+
+    .nosotros__p {
+        width: 73rem;
+        font-style: italic;
+        padding: 1rem;
+        color: #000;
+        position: relative;
+        left: 1rem;
+        top: 4rem;
+        right: 10rem;
+    }
+
+    .nosotros__gifjpg {
+        width: 755px;
+        padding: 2rem;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+    }
+    
+    .nosotros__corazon {
+        max-width: 714px;
+        position: relative;
+        left: 2rem;
+        top: 1rem;
+    }
+
+    .nosotros__manifiesto {
+        width: 72rem;
+        color: #000;
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+        text-align: center;
+        padding: 4rem;
+    }
+
+    /*cuidados*/
+
+    .cuidados{
+        display: flex;
+        flex-direction: column;}
+
+        .cuidados_p {
+            color: white;
+            width: 57rem;
+            position: relative;
+            right: 28rem;
+            font-size: large;
+            padding: 0rem;
+        }
+
+    .img__cuidados {
+        width: 757px;
+        margin-top: 5rem;
+    }
+
+    /*contacto*/
+
+    .contacto__p {
+        font-family: fantasy;
+        position: relative;
+        right: 20rem;
+        width: 68rem;
+    }
+}
+
+
+/* hasta 1024px*/ 
+
+@media screen and (max-width:1024px) {
+    /* INDEX */
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+    }
+
+    .info_section {
+        margin-left: 3rem;
+        width: 58rem;
+    }
+
+    .info-jpg {
+        max-width: 456px;
+    
+    }
+
+    .info__anillo {
+        font-style: oblique;
+        font-weight: lighter;
+        width: 45rem;
+    }
+
+    .info__title {
+        font-size: 2rem;
+    }
+
+/*productos*/
+
+    .grid__jpg {
+    max-width: 313px;
+    padding: 1rem;
+}
+
+/* Nosotros*/
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .nosotros__t {
+        font-style: italic;
+        padding: 1rem;
+        color: var(--secondary);
+        position: relative;
+        left: 1rem;
+        top: 4rem;
+        font-size: 6rem;
+        transform: rotateX(42deg);
+        font: historical-ligatures;
+        letter-spacing: 0.02em;
+    }
+
+    .nosotros__p {
+        width: 100rem;
+        font-style: italic;
+        padding: 1rem;
+        color: #000;
+        position: relative;
+        left: 1rem;
+        top: 4rem;
+        right: 10rem;
+    }
+
+    .nosotros__gifjpg {
+        width: 1011px;
+        padding: 2rem;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+    }
+    
+    .nosotros__corazon {
+        max-width: 970px;
+        position: relative;
+        left: 2rem;
+        top: 1rem;
+    }
+
+    .nosotros__manifiesto {
+        width: 98rem;
+        color: #000;
+        position: relative;
+        top: 1rem;
+        left: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }  
+
+    /*contacto*/
+
+    .contacto__p {
+        font-family: fantasy;
+        position: relative;
+        right: 18rem;
+    }
+
+
+}
 
 
 
