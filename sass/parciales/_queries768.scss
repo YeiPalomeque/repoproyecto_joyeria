@@ -1,0 +1,128 @@
+@import "./variables";
+
+/* hasta 768px*/ 
+
+@media screen and (max-width:768px) {
+
+    /*index*/
+    
+        .info {
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+        }
+    
+    /*productos*/
+    
+    .grid {
+        display: flex;
+        flex-direction: column;
+    
+        &__jpg {
+            max-width: 606px;
+        }
+    
+        &__text {
+            box-shadow: #000;
+            color: #fff;
+            position: relative;
+            top: 7rem;
+            margin: 2rem;
+            font-weight: normal;
+            font-size: 3rem;
+            font-style: italic;
+        }
+    
+    }
+    
+    /*nosotros*/
+        .nosotros {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #fff;
+    
+            &__t {
+                font-style: italic;
+                padding: 1rem;
+                color: var(--secondary);
+                position: relative;
+                left: 1rem;
+                top: 4rem;
+                font-size: 6rem;
+                transform: rotateX(42deg);
+                font: historical-ligatures;
+                letter-spacing: 0.02em;
+            }
+    
+            &__p {
+                width: 73rem;
+                font-style: italic;
+                padding: 1rem;
+                color: #000;
+                position: relative;
+                left: 1rem;
+                top: 4rem;
+                right: 10rem;
+            }
+            
+            &__gifjpg {
+                width: 755px;
+                padding: 2rem;
+                position: relative;
+                top: 2rem;
+                left: 0rem;
+            }
+    
+            &__corazon {
+                max-width: 714px;
+                position: relative;
+                left: 2rem;
+                top: 1rem;
+            }
+    
+            &__manifiesto {
+                width: 72rem;
+                color: #000;
+                position: relative;
+                top: 2rem;
+                left: 2rem;
+                text-align: center;
+                padding: 4rem;
+            }
+            
+    
+        }
+    
+        /* cuidados*/
+    
+        .cuidados{
+            display: flex;
+            flex-direction: column;
+    
+            &_p {
+                color: white;
+                width: 57rem;
+                position: relative;
+                right: 28rem;
+                font-size: large;
+                padding: 0rem;
+            }
+        }
+    
+        .img__cuidados {
+            width: 757px;
+            margin-top: 5rem;
+        }
+    
+        /*contacto*/
+    
+        .contacto__p {
+            font-family: fantasy;
+            position: relative;
+            right: 20rem;
+            width: 68rem;
+        }
+    
+    }
+    

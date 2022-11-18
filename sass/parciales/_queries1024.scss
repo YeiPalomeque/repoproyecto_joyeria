@@ -1,0 +1,109 @@
+@import "./variables";
+
+/* hasta 1024px*/ 
+    
+@media screen and (max-width:1024px) {
+    /* INDEX */ 
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+
+        &_section {
+            margin-left: 3rem;
+            width: 58rem;
+        }
+
+        &-jpg {
+            max-width: 456px;
+        
+        }
+    
+        &__anillo {
+            font-style: oblique;
+            font-weight: lighter;
+            width: 45rem;
+        }
+    
+        &__title {
+            font-size: 2rem;
+        }
+
+    }
+    /*productos*/
+    .grid__jpg {
+        max-width: 313px;
+        padding: 1rem;
+    }
+
+    /*nosotros*/
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+
+        &__t {
+            font-style: italic;
+            padding: 1rem;
+            color: var(--secondary);
+            position: relative;
+            left: 1rem;
+            top: 4rem;
+            font-size: 6rem;
+            transform: rotateX(42deg);
+            font: historical-ligatures;
+            letter-spacing: 0.02em;
+        }
+
+        &__p {
+            width: 100rem;
+            font-style: italic;
+            padding: 1rem;
+            color: #000;
+            position: relative;
+            left: 1rem;
+            top: 4rem;
+            right: 10rem;
+        }
+        
+        &__gifjpg {
+            width: 1011px;
+            padding: 2rem;
+            position: relative;
+            top: 2rem;
+            left: 0rem;
+        }
+
+        &__corazon {
+            max-width: 970px;
+            position: relative;
+            left: 2rem;
+            top: 1rem;
+        }
+
+        &__manifiesto {
+            width: 98rem;
+            color: #000;
+            position: relative;
+            top: 1rem;
+            left: 2rem;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+
+    }
+
+    /*contacto*/
+
+    .contacto__p {
+        font-family: fantasy;
+        position: relative;
+        right: 18rem;
+    }
+
+    
+
+}
